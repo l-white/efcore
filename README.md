@@ -48,14 +48,3 @@ If you are using , then you use it Test feature, via the tests icon (looks like 
 Many of the tests use SQLite in-memory databases which just work. But some tests use SQL Server. If you are using **Visual Studio on Windows** you should install the  the  "Data storage and processing" feature. This should give you a SQL Server called localdb, which the standard unit tests use. If you need to change the SQL Server name etc. then you should change the connection string called `UnitTestConnection` in the appsettings.json file in the `Test` project.
 
 If you are using **Visual Studio on Mac**, or **VS Code on Mac or linux**, then you need to install a SQL Server to allow the unit tests that need that type of database.
-
-## If you have problems with the code
-
-If you are having problems with the application then please post an issue on the [EfCoreInAction-SecondEdition issues page](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/issues), with the stack trace or compile error and I will have a look and get back to you.
-
-## If you find an error in the book
-
-If you find an error in the book, then please add a comment via Manning's LiveBook version of the book. Please make sure you say what section it is in as it's sometimes hard for me to link your comment to the section of the book.
-
-
- 
